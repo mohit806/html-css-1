@@ -1,0 +1,194 @@
+html, body, main {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.main-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-widget {
+    width: 1000px;
+    height: 600px;
+    background: url('images/Paris.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.date-info {
+    padding-right: 35px;
+}
+
+.date-info > .date-day {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.date-info > .date-month {
+    font-size: 14px;
+}
+
+.degree-info,
+.date-info {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.degree-info > .degree-item:first-child {
+    font-weight: 900;
+    font-size: 94px;
+    line-height: 88px;
+}
+
+.degree-info > .degree-item:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 9px;
+}
+
+.degree-info > .degree-item:last-child {
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.degree-digit {
+    font-size: 100px;
+    font-weight: 900;
+    position: relative;
+}
+
+.wind-speed {
+    position: relative;
+    font-size: 30px;
+    padding-left: 75px;
+}
+
+.wind-speed::before {
+    content: url('images/Wind.png');
+    position: absolute;
+    left: 10px;
+}
+
+.wind-speed::after {
+    content: 'mph';
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    right: -30px;
+    bottom: 5px;
+}
+
+.degree-digit::after {
+    content: 'o';
+    position: absolute;
+    font-size: 45px;
+    top: -15px;
+}
+
+.day-item > .day-text,
+.day-temp {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.wrapper-widget {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 75px;
+    margin-top: 75px;
+}
+
+.navigation-wrapper {
+    margin-top: 226px;
+    height: 105px;
+}
+
+.days-navigation-list {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.day-item {
+    display: flex;
+    padding: 0 25px;
+    flex-direction: column;
+    text-align: center;
+    border-right: 1px solid rgb(255,255,255);
+    width: 115px;
+    height: 85px;
+}
+
+.day-item > a {
+    height: 45px;
+}
+
+.day-item > .day-text {
+    padding-bottom: 10px;
+}
+
+.day-item:nth-child(5) {
+    border: 0;
+}
+
+button {
+        display: inline-block;
+        border: 0;
+        padding: 0;
+        background: none;
+        color: white;
+        cursor: pointer;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.btn-item:first-child button::before {
+    content: url('images/back.png');
+}
+
+.btn-item:last-child button::after {
+    content: url('images/next.png');
+}
+
+.day-temp {
+    position: relative;
+    padding-top: 5px;
+}
+
+.day-temp::after {
+    content: 'o';
+    position: absolute;
+    font-size: 8px;
+    top: 0px;
+    right: 40px;
+}

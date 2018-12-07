@@ -3,64 +3,54 @@
     <head>
         <meta charset="utf-8">
         <title>Paris</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
     </head>
     <body>
-        <h1 class="visually-hidden">Weather Widget</h1>
         <main>
+            <div class="main-wrapper">
             <section class="weather-widget">
+                <h1 class="visually-hidden">Weather Widget</h1>
                 <div class="wrapper-widget">
                     <ul class="date-info">
                         <li class="date-item date-day">Friday</li>
-                        <li class="date-item date-month">August,23rd</li>
+                        <li class="date-item date-month">August, 23rd</li>
                     </ul>
                     <ul class="degree-info">
-                        <li class="degree-item"><strong>12</strong></li>
+                        <li class="degree-item"><span class="degree-digit">12</span></li>
                         <li class="degree-item">Paris, France</li>
-                        <li class="degree-item"><strong>14</strong>mph</li>
+                        <li class="degree-item"><span class="wind-speed">14</span></li>
                     </ul>
                 </div>
 
+                <div class="navigation-wrapper">
                 <ul class="days-navigation-list">
-                    <li class="btn-item"><button><</button></li>
+                    <li class="btn-item"><button></button></li>
                     <li class="day-item">
                         <span class="day-text">Monday</span>
-                        <a href=""><img src="" alt="Weather Condition"></a>
+                        <a href=""><img src="images/Rain.png" alt="Weather Condition"></a>
                         <span class="day-temp">10</span>
                     </li>
                     <li class="day-item">
                         <span class="day-text">Tuesday</span>
-                        <a href=""><img src="" alt="Weather Condition"></a>
+                        <a href=""><img src="images/Cloudy.png" alt="Weather Condition"></a>
                         <span class="day-temp">15</span>
                     </li>
                     <li class="day-item">
                         <span class="day-text">Wednesday</span>
-                        <a href=""><img src="" alt="Weather Condition"></a>
+                        <a href=""><img src="images/Sunny.png" alt="Weather Condition"></a>
                         <span class="day-temp">23</span>
                     </li>
                     <li class="day-item">
                         <span class="day-text">Thursday</span>
-                        <a href=""><img src="" alt="Weather Condition"></a>
+                        <a href=""><img src="images/Overcast.png" alt="Weather Condition"></a>
                         <span class="day-temp">18</span>
                     </li>
-                    <li class="day-item">
-                        <span class="day-text">Friday</span>
-                        <a href=""><img src="" alt="Weather Condition"></a>
-                        <span class="day-temp">19</span>
-                    </li>
-                    <li class="day-item">
-                        <span class="day-text">Saturday</span>
-                        <a href=""><img src="" alt="Weather Condition"></a>
-                        <span class="day-temp">23</span>
-                    </li>
-                    <li class="day-item">
-                        <span class="day-text">Sunday</span>
-                        <a href=""><img src="" alt="Weather Condition"></a>
-                        <span class="day-temp">24</span>
-                    </li>
-                    <li class="btn-item"><button>></button></li>
+                    <li class="btn-item"><button></button></li>
                 </ul>
-
+                </div>
             </section>
+            </div>
         </main>
     </body>
 </html>

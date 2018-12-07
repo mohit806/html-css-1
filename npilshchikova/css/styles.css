@@ -1,9 +1,77 @@
-body {
-    background-image: url(../img/background.jpg);
-    background-size: contain;
-    filter: blur(8px);
-};
+body, html {
+    height: 100%;
+}
 
-p {
-    color: white
+img {
+    max-width: 100%;
+}
+
+.bg-image {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    height: 100%; 
+}
+
+table#forecast {
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    height: 80%;
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+table#small-forecast {
+    background-color: purple;
+}
+
+
+.cell {
+    width: 30%;
+    border: 0px;
+}
+
+.weather-icon {
+    width: 50%;
+}
+
+.weather-icon-small {
+    width: 60%;
+}
+
+.weather-icon#weather-current {
+    width: 50%;
+}
+
+.svg {
+    filter: brightness(100);
+}
+
+#c1 {
+    background-color: lightskyblue;
+}
+
+#c2 {
+    background-color: lightgreen;
+}
+
+#c3 {
+    background-color: mediumblue;
+}
+
+#c4 {
+    background-color: orange;
+}
+
+#c5 {
+    background-color: mediumorchid;
+}
+
+#c6 {
+    background-color: mediumpurple;
 }

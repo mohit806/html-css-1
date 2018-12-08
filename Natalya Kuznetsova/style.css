@@ -102,10 +102,6 @@
 }
 
 .weather_info ul li:nth-child(3) span {
-  -webkit-font-family: 'Open Sans', sans-serif;
-  -moz-font-family: 'Open Sans', sans-serif;
-  -ms-font-family: 'Open Sans', sans-serif;
-  -o-font-family: 'Open Sans', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -140,10 +136,6 @@
   margin: 0;
   padding-top: 40px;
   width: 100%;
-  -webkit-font-family: 'Proxima Nova', sans-serif;
-  -moz-font-family: 'Proxima Nova', sans-serif;
-  -ms-font-family: 'Proxima Nova', sans-serif;
-  -o-font-family: 'Proxima Nova', sans-serif;
   font-family: 'Proxima Nova', sans-serif;
   font-size: 14px;
   font-weight: bold;

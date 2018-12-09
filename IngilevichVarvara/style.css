@@ -1,0 +1,162 @@
+body {
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+.widget-wrapper {
+    width: 690px;
+    height: 435px;
+	background-image: url("img/Paris.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0 auto;
+	
+}
+
+.weather-widget {
+	height: 100%;
+	width: 690px;
+}
+
+.current-weather {
+	float: right;
+	margin-top: 7%;
+	margin-right: 7%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.current-day {
+	padding-top: 11px;
+	float: left;
+}
+
+.current-day span {
+	display: block;
+}
+
+.current-temp span:after {
+	content: "\00b0"
+}
+
+
+.current-day .week-day {
+	font-size: 20px;
+}
+
+.current-day .date {
+	font-size: 15px;
+}
+.current-temp span {
+	font-size: 90px;
+}
+
+.current-position {
+	margin-bottom: 10px;
+	font-size: 19px;
+}
+
+.weather-info {
+	float: right;
+	margin-left: 40px;
+}
+
+.weather-info div:not(.current-temp) {
+	margin-left: 10px;
+}
+
+.current-wind {
+	display: inline-block;
+	text-align: bottom;
+	
+}
+.current-wind span {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 26px;
+	padding-left: 10px;
+}
+
+.current-wind .units {
+	font-size: 10px;
+	padding-left: 3px;
+}
+
+.current-wind img {
+	vertical-align: middle
+}
+
+.weather-forecast {
+	justify-content: center;
+	display:inline-block;    
+    width: 690px;
+    margin-top: 120px;
+}
+
+ul.switch-day {
+	-webkit-padding-start: 0;
+	display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+ul.switch-day span {
+	display: block;
+	padding-bottom: 10px;
+}
+
+.switch-day li {
+	display: flex;
+	padding: 0 25px;
+	display: table-cell;
+  	vertical-align: middle;
+	flex-direction: column;
+    text-align: center;
+    /*border-right: 1px solid rgb(255,255,255);*/
+    width: 80px;
+    height: 90px;
+}
+
+.switch-day img {
+	width: 30px;
+	height: 26px;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.next {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.back {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+/*li:nth-child(2), li:nth-child(3) {
+	float: left;
+	width: 23%;
+}
+li:nth-child(4), li:nth-child(5) {
+	float: right;
+	width: 23%;
+}*/
+/**/
+
+
+/*.day-block span {
+	display: block;
+}*/
+

@@ -31,7 +31,7 @@
 
 /************ Background Image styles *************/
 .background-image {
-  background-image: url("/img/background.jpg");
+  background-image: url("../img/background.jpg");
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
@@ -63,7 +63,7 @@
 
 /************ Left block styles *************/
 .card-left {
-  background-image: url("/img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center; 

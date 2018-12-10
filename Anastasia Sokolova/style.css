@@ -1,12 +1,7 @@
 html, body, main   {
     height: 100%;
     margin: 0;
-}
-
-.page {
-  height: 100%;
-  background: url(images/bg.png) ;
-  background-size: cover;
+    background: url(images/bg.png);
 }
 
 button {
@@ -21,7 +16,8 @@ button {
 .widget {
     width: 390px;
     margin: auto;
-    padding-top: 80px
+ padding: 80px;
+  
 }
 
 .rect_top {
@@ -43,16 +39,10 @@ button {
 .container{
 width: 100%;
  position: absolute; 
+ left: 0px;
  bottom: 15px;
- display: inline-block;
  height: 70px;
  padding-bottom: 10px;
-}
-
-.degree::before{
-    content: '';
-    display: inline-block;
-    height: 100%;
 }
 
 .degree {
@@ -61,6 +51,7 @@ width: 100%;
     font:  55pt 'Source Sans Pro';
     color: #8d9396;
     position: relative;
+    left: 10px;
 }
 
 .degree::after {
@@ -94,7 +85,7 @@ width: 100%;
   }
 
   .cloud {
-    position: absolute;
+    position: relative;
     margin-top: -40px;
  }
 

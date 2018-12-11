@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
 @font-face {
   font-family: 'Proxima Nova Light';
   src: url('fonts/ofont.ru_Proxima Nova_0.ttf');
+  font-weight: 300;
 }
 @font-face {
   font-family: 'Proxima Nova';
@@ -74,8 +75,9 @@
 .weather_info ul li:first-child {
   padding-left: 20px;
   padding-right: 0;
-  font-family: 'Proxima Nova Light', sans-serif;
+  font-family: 'Proxima Nova Light', 'Open Sans', sans-serif;
   font-size: 58px;
+  font-weight: 300;
   text-align: center;
   color: #8d9396;
 }
@@ -90,15 +92,17 @@
 }
 
 .weather_info ul li:nth-child(2) span {
-  font-family: 'Source Sans Pro Light',  sans-serif;
+  font-family: 'Source Sans Pro', 'Source Sans Pro Light',  sans-serif;
   font-size: 24px;
+  font-weight: 300;
   text-align: left;
   color: #bac2c6;
 }
 
 .weather_info ul li:nth-child(2) span:last-child {
-  font-family: 'Source Sans Pro Semibold', sans-serif;
+  font-family: 'Source Sans Pro', 'Source Sans Pro Semibold', sans-serif;
   font-size: 16px;
+  font-weight: 600;
   text-align: left;
   color: #a2a9ad;
 }

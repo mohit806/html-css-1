@@ -11,41 +11,68 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(8px);
-    height: 100%; 
+    filter: blur(6px);
+    height: 100%;
 }
 
-table#forecast {
+.page-box {
     position: absolute;
-    top: 10%;
+    top: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forecast-box {
     width: 90%;
     height: 80%;
     color: white;
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-table#small-forecast {
+.forecast-small {
     background-color: purple;
 }
 
-
 .cell {
     width: 30%;
-    border: 0px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-cell {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-cell {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .weather-icon {
-    width: 50%;
+    max-height: 50%;
+    filter: drop-shadow(30px 10px 4px #4444dd);
 }
 
-.weather-icon-small {
+.icon-small {
     width: 60%;
 }
 
 .weather-icon#weather-current {
-    width: 50%;
+    width: auto;
+    max-height: 75%;
 }
 
 .svg {

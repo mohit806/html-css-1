@@ -4,8 +4,8 @@ body {
 }
 
 .background {
-    height: 600px;
-    width: 800px;
+    height: 37.5em;
+    width: 50em;
     background-color: #213546;
     background-image: url(image/Light_source@1X.png);
     background-repeat: no-repeat;
@@ -18,15 +18,15 @@ body {
 
 .city_photo {
     background-image: url(image/Paris@1X.png);
-    height: 435px;
-    width: 696px;
+    height: 27em;
+    width: 43.5em;
 }
 
 .date {
-    height: 0px;
-    width: 200px;
+    height: 0em;
+    width: 12.5em;
     text-align: left;
-    margin-top: 60px;
+    margin-top: 3.75em;
 }
 
 .temperature_data {
@@ -34,37 +34,37 @@ body {
 }
 
 .day {
-    font-size: 30pt;
+    font-size: 2.3em;
     text-align: left;
-    margin-left: 364px;
+    margin-left: 350px;
 }
 
 .month {
-    font-size: 14pt;
+    font-size: 1em;
     text-align: left;
-    margin-left: 364px;
+    margin-left: 350px;
 }
 
 .temperature {
     font-family: ﻿Lato-Black, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, monospace;
     font-weight: 900;
-    font-size: 92.42px;
+    font-size: 7em;
     line-height: 88px;
     margin-left: 476px;
 }
 
 .country {
-    font-size: 22.24pt;
+    font-size: 1.6em;
     margin-left: 476px;
 }
 
 .wind {
-    font-size: 29.35pt;
+    font-size: 2em;
 }
 
 .mph {
     font-family: ﻿Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
-    font-size: 12.97pt;
+    font-size: 1em;
 }
 
 .wind_img {
@@ -72,24 +72,23 @@ body {
 }
 
 .light_grey {
-    position: absolute;
-    bottom: 100px;
-    right: 340px;
+    position: relative;
+    bottom: 6.7em;
 }
 
 .week {
-    height: 42px;
+    height: 20%;
     width: 100%;
 }
 
 td {
-    font-size: 14pt;
+    font-size: 1.16em;
     text-align: center;
     vertical-align: center;
 }
 
 table {
-    padding: 100px 0 0;
+    padding: 7.5em 0 0;
     width: 100%;
 }
 

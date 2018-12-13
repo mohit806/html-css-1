@@ -3,27 +3,29 @@
 <head>
 	<meta charset="utf-8">
 	<title>Cubes</title>
+	<link href="Content\css\style.css" rel="stylesheet">
 </head>
 <body>
 	<div class="main-container">
-		<div class="forecast-block" id="chicago">
+		<div class="forecast-blocks">
+		<div class="forecast-block row1" id="chicago">
             <div class="weather-icon"><img src="Content\Images\icons\CR_Alt.png" alt="rain"></div>			
 			<p class="forecast-block-title">chicago / 23&deg;</p>
 		</div>
-		<div class="forecast-block" id="seattle">
+		<div class="forecast-block row1" id="seattle">
             <div class="weather-icon"><img src="Content\Images\icons\Fog.png" alt="fog"></div>
 			<p class="forecast-block-title">seattle / 34&deg;</p>
 		</div>
-		<div class="forecast-block" id="brooklyn">
+		<div class="forecast-block row1" id="brooklyn">
             <div class="weather-icon"><img src="Content\Images\icons\CS.png" alt="cloud"></div>
 			<p class="forecast-block-title">brooklyn / 55&deg;</p>
 		</div>
-		<div class="forecast-block" id="portland">
+		<div class="forecast-block row2" id="portland">
             <div class="weather-icon"><img src="Content\Images\icons\CSS.png" alt="fall"></div>
 			<p class="forecast-block-title">portland / 27&deg;</p>
 		</div>
-		<div class="forecast-block" id="weather-report-for-the-week">
-			<img src="Content\Images\icons\CWM.png" alt="wind">
+		<div class="forecast-block row3" id="weather-report-for-the-week">
+			<div class="weather-icon"><img src="Content\Images\icons\CWM.png" alt="wind"></div>
 			<div class="day-forecast-container">
 				<div class="day-forecast">
 					<div class="day-title">mon</div> 
@@ -47,10 +49,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="forecast-block" id="san-jose">
+		<div class="forecast-block row2" id="san-jose">
             <div class="weather-icon"><img src="Content\Images\icons\Cloud.png" alt="strong cloud"></div>
 			<p  class="forecast-block-title">san jose / 47&deg;</p>
 		</div>
+		</div>		
     </div>
 </body>
 </html>

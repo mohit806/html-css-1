@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 .bg {
     background-color: #4e5860;
     background-image: url(images/gloss.png);
@@ -35,7 +44,7 @@
     margin: auto;
 }
 
- .refresh_icon {
+.refresh_icon {
     position: absolute;
     top: 16px;
     right: 17px;
@@ -44,12 +53,6 @@
 .current {
     height: 86px;
     position: relative;
-}
-
-/* сброс стилей браузера */
-p { 
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 .temperature {
@@ -118,7 +121,7 @@ p {
     right: 0;
 }
 
-.date p {
+.month, .day {
     font-family: open-sans, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -126,9 +129,6 @@ p {
     text-align: center;
     position: relative;
     top: 15px; 
-}
-
-.month {
     font-size: 14px;
 }
 
@@ -180,10 +180,10 @@ footer {
     margin: 4px;   
 }
 
- .scroller {
+.scroller {
     width: 100%;
     text-align: center;         /* горизонтальное выравнивание иконок скролла */
     position: absolute;
-    bottom: 19px;
+    bottom: 19px; 
+    font-size: 0;  
  }
-

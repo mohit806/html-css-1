@@ -92,7 +92,7 @@ table {
     width: 100%;
 }
 
-.cell {
+.cell_with_border {
     width: 23%;
     border-right: 1px solid white;
 }

@@ -59,33 +59,19 @@ main {
 
 .cities {
 	font-size: 16px;
-}
-
-.first-row img {
-	padding: 45px 0 0 0;
-}
-.first-row aside {
+	margin: 0;
 	padding: 20px 0 0 0;
 }
 
-.section-four img {
-	padding: 40px 0 0 0;
-}
-.section-four aside {
-	padding: 14px 0 0 0;
+.weather-big-icon {
+	padding: 45px 0 0 0;
 }
 
-.section-six img {
-	padding: 54px 0 0 0;
-}
-.section-six aside {
-	padding: 24px 0 0 0;
-}
-
-.section-five > img {
+.detail {
 	padding: 24px 0 8px 0;
 }
-.section-five > div {
+
+.weather-of-the-week {
 	width: 100%;
 	height: 94px;
 	background-color: #bd3559;
@@ -101,4 +87,8 @@ main {
 
 .weather-small-icon {
 	padding: 15px 0; 
+}
+
+.if-cloudy {
+	padding: 40px 0 0 0;
 }

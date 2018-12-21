@@ -1,189 +1,189 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .bg {
-    background-color: #4e5860;
-    background-image: url(images/gloss.png);
-    width: 800px;
-    height: 600px;
-    position: relative;
+  background-color: #4e5860;
+  background-image: url(images/gloss.png);
+  width: 800px;
+  height: 600px;
+  position: relative;
 }
 
 .widget {
-    background-color: #f1f8f9;
-    width: 389px;
-    height: 464px;
-    border-radius: 10px 10px 15px 15px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    box-shadow: 0px 21px 20.16px 0.84px rgba(0, 0, 0, 0.15);
+  background-color: #f1f8f9;
+  width: 389px;
+  height: 464px;
+  border-radius: 10px 10px 15px 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  box-shadow: 0px 21px 20.16px 0.84px rgba(0, 0, 0, 0.15);
 }
 
 .weather-image-container {
-    width: 100%;
-    height: 242px;
-    position: relative;
+  width: 100%;
+  height: 242px;
+  position: relative;
 }
 
 .weather-icon {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .refresh_icon {
-    position: absolute;
-    top: 16px;
-    right: 17px;
-} 
+  position: absolute;
+  top: 16px;
+  right: 17px;
+}
 
 .current {
-    height: 86px;
-    position: relative;
+  height: 86px;
+  position: relative;
 }
 
 .temperature {
-    width: 115px;
-    height: 100%;
-    position: relative;
+  width: 115px;
+  height: 100%;
+  position: relative;
 }
 
 .temperature-value {
-    font-family: proxima-nova, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 57.6px;
-    color: #8d9396;
-    position: absolute; 
-    right: 32px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 57.6px;
+  color: #8d9396;
+  position: absolute;
+  right: 32px;
 }
 
 .degree-symbol {
-    font-family: proxima-nova, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16.8px;
-    color: #8d9396;
-    position: absolute;
-    right: 13px;
-    top: 13px;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.8px;
+  color: #8d9396;
+  position: absolute;
+  right: 13px;
+  top: 13px;
 }
 
 .middle-column {
-    width: 209px;
-    height: 100%;
-    position: absolute;
-    left: 115px;
-    top: 0;
+  width: 209px;
+  height: 100%;
+  position: absolute;
+  left: 115px;
+  top: 0;
 }
 
 .weather-text {
-    font-family: source-sans-pro, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 24px;
-    color: #bac2c6;
-    position: absolute;
-    top: 7px;
-    left: 0;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+  color: #bac2c6;
+  position: absolute;
+  top: 7px;
+  left: 0;
 }
 
 .location {
-    font-family: source-sans-pro, sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    color: #bac2c6;
-    position: absolute;
-    top: 40px;
-    left: 0;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  color: #bac2c6;
+  position: absolute;
+  top: 40px;
+  left: 0;
 }
 
 .date {
-    width: 65px;
-    height: 69px;
-    background-color: #54bae6;
-    position: absolute;
-    top: 0;
-    right: 0;
+  width: 65px;
+  height: 69px;
+  background-color: #54bae6;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.month, .day {
-    font-family: open-sans, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    color: white;
-    text-align: center;
-    position: relative;
-    top: 15px; 
-    font-size: 14px;
+.month,
+.day {
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 15px;
+  font-size: 14px;
 }
 
 .day {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 footer {
-    background-color: #2e3335;
-    height: 136px;
-    border-radius: 0 0 10px 10px;
-    position: relative;
+  background-color: #2e3335;
+  height: 136px;
+  border-radius: 0 0 10px 10px;
+  position: relative;
 }
 
-.stats img {
-    margin-bottom: 3px;         /* небольшое выравнивание для соответствия макету */
-    margin-right: 16px;         /* отступ между иконкой и текстом */
-    vertical-align: middle;   
+.stats-img {
+  margin: 0 16px 3px 0;
+  vertical-align: middle;
 }
 
 .stats {
-    font-family: proxima-nova, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 14px;
-    color: white;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
 }
 
 .wind {
-    position: absolute;
-    top: 46px;
-    left: 45px;
+  position: absolute;
+  top: 46px;
+  left: 45px;
 }
 
 .humidity {
-    position: absolute;
-    top: 46px;
-    left: 169px;
+  position: absolute;
+  top: 46px;
+  left: 169px;
 }
 
-.sun{
-    position: absolute;
-    top: 46px;
-    left: 272px;
+.sun {
+  position: absolute;
+  top: 46px;
+  left: 272px;
 }
 
-.scroller img {
-    vertical-align: middle;     /* вертикальное выравнивание иконок скролла */
-    margin: 4px;   
+.scroller-img {
+  vertical-align: middle;
+  margin: 4px;
 }
 
 .scroller {
-    width: 100%;
-    text-align: center;         /* горизонтальное выравнивание иконок скролла */
-    position: absolute;
-    bottom: 19px; 
-    font-size: 0;  
- }
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 19px;
+  font-size: 0;
+}

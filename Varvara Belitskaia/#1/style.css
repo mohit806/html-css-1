@@ -56,15 +56,15 @@ a {
 }
 
 .temperature {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
   width: 115px;
   height: 100%;
   position: relative;
 }
 
 .temperature-value {
-  font-family: proxima-nova, sans-serif;
   font-weight: 300;
-  font-style: normal;
   font-size: 57.6px;
   color: #8d9396;
   position: absolute;
@@ -72,9 +72,7 @@ a {
 }
 
 .degree-symbol {
-  font-family: proxima-nova, sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 16.8px;
   color: #8d9396;
   position: absolute;
@@ -88,12 +86,12 @@ a {
   position: absolute;
   left: 115px;
   top: 0;
+  font-family: source-sans-pro, sans-serif;
+  font-style: normal;
 }
 
 .weather-text {
-  font-family: source-sans-pro, sans-serif;
   font-weight: 300;
-  font-style: normal;
   font-size: 24px;
   color: #bac2c6;
   position: absolute;
@@ -102,9 +100,7 @@ a {
 }
 
 .location {
-  font-family: source-sans-pro, sans-serif;
   font-weight: 600;
-  font-style: normal;
   font-size: 16px;
   color: #bac2c6;
   position: absolute;
@@ -113,6 +109,9 @@ a {
 }
 
 .date {
+  font-family: open-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   width: 65px;
   height: 69px;
   background-color: #54bae6;
@@ -123,9 +122,6 @@ a {
 
 .month,
 .day {
-  font-family: open-sans, sans-serif;
-  font-weight: 700;
-  font-style: normal;
   color: white;
   text-align: center;
   position: relative;
@@ -175,11 +171,6 @@ footer {
   left: 272px;
 }
 
-.scroller-img {
-  vertical-align: middle;
-  margin: 4px;
-}
-
 .scroller {
   width: 100%;
   text-align: center;
@@ -187,3 +178,9 @@ footer {
   bottom: 19px;
   font-size: 0;
 }
+
+.scroller-img {
+  vertical-align: middle;
+  margin: 4px;
+}
+

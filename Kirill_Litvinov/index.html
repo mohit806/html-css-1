@@ -11,47 +11,46 @@
 <body>
     <section>
         <div class="main-component">
-            <div id="weather">
+            <div class="weather">
                 <ul class="date">
                     <li class="day">Friday</li>
                     <li class="month">August, 23rd</li>
-                </ul>   
-                <ul class="detail-weather">
-                    <li class="grade"><strong>12 <sup>o</sup></strong></li>
-                    <li class="city">Paris, France</li>
-                    <li class="wind"> <img src="img/wind.png" alt="Wind"> <strong>14</strong> <span>mph</span> </li>
                 </ul>
-                <div id="switch">
-                   <ul class="day-switch">
-                       <button class="switch-btn"><</button>
-                       <li class="days-info">
-                           <h4>Monday</h4>
-                           <img src="img/monday.png" alt="">
-                           <h4>10<sup>o</sup></h4>
-                       </li>
-                       <span class="vertical-line"></span>
-                       <li class="days-info">
-                            <h4>Tuesday</h4>
-                            <img src="img/tuesday.png" alt="">
-                            <h4>15<sup>o</sup></h4>
-                       </li>
-                       <span class="vertical-line"></span>
-                       <li class="days-info">
-                            <h4>Wednesday</h4>
-                            <img src="img/wednesday.png" alt="">
-                            <h4>23<sup>o</sup></h4>
-                       </li>
-                       <span class="vertical-line"></span>
-                       <li class="days-info">
-                            <h4>Thursday</h4>
-                            <img src="img/thursday.png" alt="">
-                            <h4>18<sup>o</sup></h4>
-                       </li>
-                       <button class="switch-btn">></button>
-                   </ul>
-               </div> 
+                <ul class="detail-weather">
+                    <li class="grade"><span class="bold-text">12<span>&deg</span></span></li>
+                    <li class="city">Paris, France</li>
+                    <li class="wind"><img src="img/wind.png" alt="Wind"><span class="bold-text">14</span> <span>mph</span> </li>
+                </ul>
+                <div class="switch">
+                    <button class="switch-btn left-btn"><</button> 
+                        <ul class="day-switch">
+                            <li class="days-info">
+                                <span class="days-info_text">Monday</span>
+                                <img src="img/monday.png" alt="Monday">
+                                <span class="days-info_text">10<span>&deg</span></span>
+                            </li>
+                            <span class="vertical-line"></span>
+                            <li class="days-info">
+                                <span class="days-info_text">Tuesday</span>
+                                <img src="img/tuesday.png" alt="Tuesday">
+                                <span class="days-info_text">15<span>&deg</span></span>
+                            </li>
+                            <span class="vertical-line"></span>
+                            <li class="days-info">
+                                <span class="days-info_text">Wednesday</span>
+                                <img src="img/wednesday.png" alt="Wednesday">
+                                <span class="days-info_text">23<span>&deg</span></span>
+                            </li>
+                            <span class="vertical-line"></span>
+                            <li class="days-info">
+                                <span class="days-info_text">Thursday</span>
+                                <img src="img/thursday.png" alt="Thursday">
+                                <span class="days-info_text">18<span>&deg</span></span>
+                            </li>
+                        </ul>
+                    <button class="switch-btn right-btn">></button>
+                </div>
             </div>
-            
         </div>
     </section>
 </body>

@@ -24,13 +24,15 @@ li {
     justify-content: center;
 }
 
-#weather {
+.weather {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
     width: 696px;
     height: 435px;
-    background-image: url(img/paris.png);
+    background-image: url('img/paris.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .detail-weather {
@@ -61,7 +63,7 @@ li {
     font-size: 2.1em;
 }
 
-.wind strong {
+.wind span.bold-text {
     font-size:2em;
 }
 
@@ -69,7 +71,7 @@ li {
     font-size:0.9em;
 }
 
-#switch { 
+.switch { 
     display: flex;
     align-self: flex-end;
     position: absolute;
@@ -91,11 +93,6 @@ li {
     margin:0 30px;
 }
 
-h4 { 
-    font-weight: 100;
-    margin: 3px;
-}
-
 .vertical-line{ 
     height: 80%;
     border-right: 1px solid rgba(255,255,255,0.3);
@@ -103,9 +100,31 @@ h4 {
 }
 
 .switch-btn {
-    background:none;
+    background: none;
     color: #fff;
     font-size:1.5em;
     border:none;
+    z-index: 3;
+    position: absolute;
+    display: flex;
     cursor:pointer;
+    align-self:center;
+}
+
+.left-btn {
+    left:10%;
+}
+
+.right-btn {
+    right:10%;
+}
+
+span.bold-text {
+    font-weight: bold;
+}
+
+.days-info_text {
+    font-weight: 100;
+    margin: 3px;
+    display: block;
 }

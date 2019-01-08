@@ -2,6 +2,11 @@
 	font-family: "AvenirNext Bold";
 	src: url('fonts/AvenirNext-Bold.ttf');
 }
+/*ie*/
+@font-face {
+	font-family: "AvenirNext Bold";
+	src: local("AvenirNext Bold"), url(fonts/AvenirNext-Bold.woff);
+}
  main, .forecast-block {
 	box-sizing: border-box;
 }

@@ -56,19 +56,19 @@ ul {
     user-select: none;
 }
 
-.degree-info > .degree-item:first-child {
+.degree-info .degree-info-temp {
     font-weight: 900;
     font-size: 94px;
     line-height: 88px;
 }
 
-.degree-info > .degree-item:nth-child(2) {
+.degree-info .degree-info-place {
     font-weight: 400;
     font-size: 24px;
     padding-left: 9px;
 }
 
-.degree-info > .degree-item:last-child {
+.degree-info .degree-info-speed {
     font-weight: 900;
     font-size: 30px;
     padding-top: 20px;
@@ -101,13 +101,6 @@ ul {
     bottom: 5px;
 }
 
-.degree-digit::after {
-    content: 'o';
-    position: absolute;
-    font-size: 45px;
-    top: -15px;
-}
-
 .day-item > .day-text,
 .day-temp {
     font-weight: 400;
@@ -122,6 +115,7 @@ ul {
 }
 
 .navigation-wrapper {
+    position: relative;
     margin-top: 226px;
     height: 105px;
 }
@@ -151,7 +145,7 @@ ul {
     padding-bottom: 10px;
 }
 
-.day-item:nth-child(5) {
+.day-item:nth-last-child {
     border: 0;
 }
 
@@ -164,19 +158,28 @@ button {
         cursor: pointer;
 }
 
-button:active, button:focus {
-  outline: none;
-}
-
 button::-moz-focus-inner {
   border: 0;
 }
 
-.btn-item:first-child button::before {
+.btn-item {
+    position: absolute;
+    top: 50%;
+}
+
+.btn-item-left {
+    left: 5%;
+}
+
+.btn-item-right {
+    right: 5%;
+}
+
+.btn-item-left button::before {
     content: url('images/back.png');
 }
 
-.btn-item:last-child button::after {
+.btn-item-right button::after {
     content: url('images/next.png');
 }
 
@@ -185,10 +188,10 @@ button::-moz-focus-inner {
     padding-top: 5px;
 }
 
-.day-temp::after {
-    content: 'o';
-    position: absolute;
-    font-size: 8px;
-    top: 0px;
-    right: 40px;
-}
+    /* .day-temp::after {
+        content: 'o';
+        position: absolute;
+        font-size: 8px;
+        top: 0px;
+        right: 40px;
+    } */

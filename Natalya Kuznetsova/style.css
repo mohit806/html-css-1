@@ -59,7 +59,7 @@
   margin: 50px 0 30px 0;
 }
 
-.weather_info ul {
+.weather_info_list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -68,11 +68,11 @@
   width: 100%;
 }
 
-.weather_info ul li {
+.weather_info_list li {
   padding: 10px 15px;
 }
 
-.weather_info ul li:first-child {
+.weather_info_list .degree {
   padding-left: 20px;
   padding-right: 0;
   font-family: 'Proxima Nova Light', 'Open Sans', sans-serif;
@@ -82,16 +82,16 @@
   color: #8d9396;
 }
 
-.weather_info ul li:nth-child(2) {
+.weather_info_list .info {
+  display: block;
+}
+
+.weather_info_list .city {
   flex-basis: 50%;
   padding-left: 0;
 }
 
-.weather_info ul li span {
-  display: block;
-}
-
-.weather_info ul li:nth-child(2) span {
+.weather_info_list .city_info {
   font-family: 'Source Sans Pro', 'Source Sans Pro Light',  sans-serif;
   font-size: 24px;
   font-weight: 300;
@@ -99,7 +99,7 @@
   color: #bac2c6;
 }
 
-.weather_info ul li:nth-child(2) span:last-child {
+.weather_info_list #city {
   font-family: 'Source Sans Pro', 'Source Sans Pro Semibold', sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -107,11 +107,11 @@
   color: #a2a9ad;
 }
 
-.weather_info ul li:nth-child(3) {
+.weather_info_list .date {
   background-color: #54bae6;
 }
 
-.weather_info ul li:nth-child(3) span {
+.weather_info_list .date_info {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -121,7 +121,7 @@
   line-height: 22px;
 }
 
-.weather_info ul li:nth-child(3) span:last-child {
+.weather_info_list #day {
   font-size: 18px;
 }
 
@@ -142,7 +142,7 @@
   display: inline-block;
 }
 
-.weather_params ul:first-child {
+.weather_params .weather_params_list {
   margin: 0;
   padding-top: 40px;
   width: 100%;
@@ -152,30 +152,30 @@
   color: #fff;
 }
 
-.weather_params ul:first-child li{
+.weather_params_list li{
   padding-right: 25px;
   vertical-align: middle;
 }
 
-.weather_params ul:first-child li:first-child{
+.weather_params_list li:first-child{
   padding-left: 50px;
 }
 
-.weather_params ul:first-child span{
+.weather_params_list span{
   padding-left: 20px;
   line-height: 22px;
   vertical-align: top;
 }
 
 
-.weather_params ul:last-child li {
+.weather_params_pagination li {
   width: 5px;
   height: 5px;
   border-radius: 5px;
   border: 2px solid #44494a;
 }
 
-.weather_params ul:last-child li#active {
+.weather_params_pagination li#active {
   background-color: #fff;
   border: 2px solid #fff;
 }

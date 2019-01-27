@@ -1,0 +1,153 @@
+/* Fonts */
+@font-face {
+  font-family: "Dosis-ExtraLight"; 
+  src: url(../fonts/Dosis/Dosis-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Dosis-Light"; 
+  src: url(../fonts/Dosis/Dosis-Light.ttf);
+}
+
+@font-face {
+  font-family: "Dosis-Regular"; 
+  src: url(../fonts/Dosis/Dosis-Regular.ttf);
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: none
+}
+
+.fas {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/************ Background Image styles *************/
+.background-image {
+  background-image: url("../img/background.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-position-x: 60%;
+  background-position-y: 25%;
+  position: fixed;
+  left: 0; 
+  right: 0; 
+  z-index: 1;
+  filter: brightness(0.8) blur(10px);
+}
+
+/************ Main block *************/
+.main-block {
+  width: 581px;
+  height: 438px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
+
+/************ Left block styles *************/
+.card-left {
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-position-x: 60%;
+  background-position-y: 30%;
+}
+
+.list-group {
+  text-align: center;
+  opacity: 0.9;
+  color: white;
+}
+
+.items-left_block_first, .items-left_block_second {
+  height: 100px;
+}
+
+.items-left_block_first {
+  background-color: #2e1c25;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Dosis-ExtraLight'; 
+  padding-top: 20px;
+}
+
+.items-left_block_second {
+  background-color: #771921;
+  font-family: 'Dosis-Light';
+  font-size: 22px;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+.card-body > img {
+  color: white;
+  height: 140px;
+  width: 140px;
+}
+
+/************ Right block styles *************/
+.items-right_block_first,
+.items-right_block_second,
+.items-right_block_third {
+  height: 100px;
+  color: #771921;
+  font-family: 'Dosis-ExtraLight'; 
+  border: none;
+}
+
+.rb_text {
+  border-bottom: 1px solid;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.items-right_block_first {
+  height: 140px;
+  font-size: 101px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1em;
+  padding-bottom: 10px;
+}
+
+.items-right_block_second > img {
+  padding: 0 0px 30px 0;
+  border-bottom: 1px solid;
+}
+
+.items-right_block_third {
+  height: 200px;
+}
+
+.items-right_block_third hr {
+  border-top: 1px solid  #771921;
+}
+
+.items-right_block_third p {
+  margin: 0;
+  font-family: 'Dosis-Regular';
+  font-weight: 600;
+}
+
+.below_temp { 
+  color: black; 
+}

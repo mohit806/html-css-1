@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Bootstrap -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+  <!-- FontAwesome  -->
+  <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tokyo.psd</title>
+</head>
+<body>
+  <!-- Background image -->
+  <div class="background-image"></div>
+  
+  <!-- Main block -->
+  <div class="main-block row"> 
+
+    <!-- Left block -->
+    <div class="card card-left col-md-6 p-0 h-100  ">
+      <div class="card-body text-center">
+        <img class="rounded mt-4" src="img/sun.png" alt="Sunny">
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item items-left_block_first">Sunny</li>
+        <li class="list-group-item items-left_block_second">Tokyo - Wednesday, July 31</li>
+      </ul>
+    </div>
+
+    <!-- Right block -->
+    <div class="col-md-6 card card-right">
+        <ul class="list-group list-group-flush">
+          <!-- First right block with temperature -->
+          <li class="list-group-item items-right_block_first">
+            <span class= "rb_text">28 °C</span>
+          </li>
+          <!-- Second right block with chart -->
+          <li class="list-group-item items-right_block_second">
+            <img src="img/graph.png" alt="Graph">  
+          </li>
+          <!-- Third right block, which includes 3 blocks of weather -->
+          <li class="list-group-item items-right_block_third">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-4 items-right_block_third-left">
+                <i class="fas fa-sun"></i>
+                <p> Thu </p>
+                <hr />
+                <p> 28°C </p> 
+                <p class="below_temp"> 18°C </p> 
+              </div>
+              <div class="col-md-4 col-sm-4 col-4 items-right_block_third-center">
+                <i class="fas fa-cloud-sun"></i>
+                <p> Fri </p>
+                <hr />
+                <p> 22°C </p> 
+                <p class="below_temp"> 20°C </p> 
+              </div>
+              <div class="col-md-4 col-sm-4 col-4 items-right_block_third-right">
+                <i class="fas fa-cloud-sun"></i>
+                <p> Sat </p>
+                <hr />
+                <p> 30°C </p> 
+                <p class="below_temp"> 27°C </p> 
+              </div>
+            </div>
+          </li>
+        </ul>
+    </div>
+
+  </div>
+</body>
+</html>

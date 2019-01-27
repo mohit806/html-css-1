@@ -1,0 +1,94 @@
+@font-face {
+	font-family: "AvenirNext Bold";
+	src: url('fonts/avenir-next-bold.woff');
+}
+
+main, .weather-big-section {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+main {
+	margin: auto;
+	background-image: url(img/backgroundpic.png);
+	background-position: center;
+	background-size: auto;
+	padding: 96px 94px;
+	height: 600px;
+	width: 800px;
+	overflow: hidden;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	font-family: "AvenirNext Bold", Arial;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.weather-big-section {
+	display: block;
+	margin: 0;
+	width: 204px;
+	height: 204px;
+	float: left;
+	border: 1px outset rgba(0, 0, 0, 0.17);
+}
+
+.section-one {
+	background-color: #06B3DB;
+}
+.section-two {
+	background-color: #4ed486;
+}
+.section-three {
+	background-color: #6139f6;
+}
+.section-four {
+	background-color: #e3b63d;
+}
+.section-five {
+	background-color: #dc3d66;
+}
+.section-six {
+	background-color: #bd54cd;
+}
+
+.cities {
+	font-size: 16px;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+.weather-big-icon {
+	padding: 45px 0 0 0;
+}
+
+.detail {
+	padding: 24px 0 8px 0;
+}
+
+.weather-of-the-week {
+	width: 100%;
+	height: 94px;
+	background-color: #bd3559;
+	padding: 10px 0 0 0;
+	display: flex;
+}
+
+.weather-on-the-week {
+	flex: 1;
+	flex-direction: column;
+	font-size: 12px;
+}
+
+.weather-small-icon {
+	padding: 15px 0; 
+}
+
+.if-cloudy {
+	padding: 40px 0 0 0;
+}

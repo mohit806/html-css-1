@@ -1,0 +1,152 @@
+*, *:before, *:after {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #4e5860;
+    background: linear-gradient(to left, #4e5860, #5a646d, #4e5860);
+    font-family: 'Open Sans', sans-serif;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.widget {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+
+    background: #f1f8f9;
+    box-shadow: 0px 21px 21px 0 #00000025;
+    border-radius: 10px;
+}
+
+.widget__img {
+    margin-top: 4.25rem; 
+    width: 35%;
+}
+
+.widget__info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 3.125rem 0 1.25rem;
+    padding-left: 1.25rem;
+
+    color: #8d9396;
+}
+
+.widget__temp {
+    order: 1;
+
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+.widget__header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order: 2;
+    margin-left: 2.5%;
+}
+
+.widget__title {
+    order: 2;
+    margin: 0;
+
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.widget__description {
+    order: 1;
+    margin: 0;
+
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.widget__date {
+    align-self: stretch;
+    order: 3;
+    margin-left: auto;
+    padding: 0.625rem 5%;
+    text-align: center;
+
+    background-color: #54bae6;
+    color: #fff;
+    font-weight: 800;
+    line-height: 1.8;    
+}
+
+.widget__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem 8.75% 3.75rem 8.75%;
+
+    background: #2e3335;
+    color: #fff;
+    border-radius: 0 0 9px 9px;
+}
+
+.widget__detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.875rem;
+}
+
+.widget__detail img {
+    height: 1.25rem;
+}
+
+.widget__detail dd{
+    margin-left: 15px;
+}
+
+.widget__refresh {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    width: 5%;
+    height:  1.25rem;
+
+    border: none;
+    background: url('assets/refresh.svg') no-repeat;
+}
+
+.widget__refresh span {
+    display: none;
+}
+
+.widget__controls {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 1.25rem; 
+}
+
+.widget__control {
+    width: 0.5rem;
+    height: 0.5rem;
+    margin: 1.125%;
+
+    border: 2px solid #4e4f50;
+    border-radius: 100%;
+}
+
+.widget__control--active {
+    border: 2px solid #fff;
+    background: #fff;
+}

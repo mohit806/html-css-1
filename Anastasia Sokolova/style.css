@@ -1,0 +1,134 @@
+html, body, main   {
+    height: 100%;
+    margin: 0;
+    background: url(images/bg.png);
+}
+
+button {
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.widget {
+    width: 390px;
+    margin: auto;
+ padding: 80px;
+  
+}
+
+.rect_top {
+    background: url(images/Rect_top.png) ;
+    height: 320px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.rect_btm {  
+    height: 135px;
+    background: url(images/Rect_btm.png) ;
+    text-align: center;
+}
+
+.container{
+width: 100%;
+ position: absolute; 
+ left: 0px;
+ bottom: 15px;
+ height: 70px;
+ padding-bottom: 10px;
+}
+
+.degree {
+    display: inline-block;
+    height: 100%;
+    font:  55pt 'Source Sans Pro';
+    color: #8d9396;
+    position: relative;
+    left: 10px;
+}
+
+.degree::after {
+    content: 'o';
+    position: absolute;
+    top: 5px;
+    right: -15px;
+    font-size: 25px;
+}
+
+.weather_city {
+    display: inline-block; 
+    height: 100%;
+    vertical-align: middle;
+    color: #8d9396;
+    position: absolute;
+    margin: 20px 30px;
+   font:  20pt 'Source Sans Pro', sans-serif;
+   line-height: 1;
+}
+
+.weather_city > span {
+    font:  bold 14pt 'Source Sans Pro', sans-serif;
+}
+
+.refresh {
+    display:block;
+    position: absolute; 
+    right: 20px;
+    top: 20px;
+  }
+
+  .cloud {
+    position: relative;
+    margin-top: -40px;
+ }
+
+.data {
+    text-align: center; 
+    height: 70px;
+    width: 67px;
+    position: absolute; 
+    right: 0px;
+    bottom: 0px; 
+    background: url(images/Rect_blue.png) ;   
+}
+
+.data::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.text_data { 
+    display: inline-block;
+    font: 12pt 'Open Sans', sans-serif ; 
+    line-height: 1;
+    color: aliceblue;
+    vertical-align: middle;
+}
+
+.stats {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font: 10pt 'Lato'; 
+    color: aliceblue;
+    margin: 20px auto;
+    }
+  
+.stat_item {  
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 15px 15px 15px;
+    }
+    
+.stat_item > img  {
+        margin: 0px 5px -5px 0px;
+    }

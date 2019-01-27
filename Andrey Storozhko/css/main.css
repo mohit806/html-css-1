@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "AvenirNextBold";
+    src: url("../fonts/AvenirNextBold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: url("../img/background.png") no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "AvenirNextBold", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.widget {
+    width: 615px;
+    height: 410px;
+    box-shadow: 0 0 30px 20px rgba(38, 38, 38, 0.8);
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.widget__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.widget__list-item {
+    width: 205px;
+    height: 205px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.widget__list-item:nth-child(1) {
+    background-color: #00c0e2;
+}
+
+.widget__list-item:nth-child(2) {
+    background-color: #5ad998;
+}
+
+.widget__list-item:nth-child(3) {
+    background-color: #7558f8;
+}
+
+.widget__list-item:nth-child(4) {
+    background-color: #e9c14d;
+}
+
+.widget__list-item:nth-child(5) {
+    background-color: #e55679;
+}
+
+.widget__list-item:nth-child(6) {
+    background-color: #cb70d7;
+}
+
+.city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-top: 45px;
+}
+
+.city__info {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.widget__list-item:nth-child(5) .city .city__weather {
+    padding-top: 0;
+    width: 65px;
+}
+
+.city__weather {
+    height: 85px;
+    width: 85px;
+
+}
+
+.city__main {
+    font-size: 12px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.city__temp {
+    padding-left: 5px;
+}
+
+.days__list {
+    height: 50%;
+    background-color: #bb3458;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day__name, .day__temp {
+    font-size: 11px;
+}
+
+.day__name {
+    padding-bottom: 10px;
+}
+
+.day__temp {
+    padding-top: 10px;
+}
+
+.day__weather {
+    height: 20px;
+    width: 20px;
+}
